@@ -13,23 +13,23 @@
 	</header>
 	<main class="form-body">
 		<div>
-			<form action="./main.html" method="get">
+			<form action="./main.html" method="post">
 				<label for="name">Name</label><br>
 				<input type="text" id="name" placeholder="Full name" required><br><br>
 				<label for="email">Email</label><br>
 				<input type="email" id="email" placeholder="Enter email" required><br><br>
 				<label for="gender">Gender</label><br>
-				<input type="radio" name="gender" value="male">
+				<input type="radio" name="gender" value="male" required>
 				<label for="male">Male</label>
-				<input type="radio" name="gender" value="female">
+				<input type="radio" name="gender" value="female" required>
 				<label for="male">Female</label><br><br>
-				<label for="car-brands">Car Brands</label><br>
+				<label for="cars">Car Brands</label><br>
 				<select id="cars" required>
 					<option value="volvo">BMW</option>
 					<option value="saab">Audi</option>
 					<option value="opel">Mercedez</option>
 				</select><br><br>
-				<label for="car-age">Car Age</label><br>
+				<label for="carage">Car Age</label><br>
 				<input type="number" id="carage" value="0" required><br><br>
 				<label for="dop">Date of Purchase</label><br>
 				<input type="date" id="dop" value="19/12/2022" required><br><br>
